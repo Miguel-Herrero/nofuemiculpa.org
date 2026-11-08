@@ -4,17 +4,17 @@
 # Windows
 Thumbs.db
 
-# Editores
+# Editors
 .vscode/
 .idea/
 *.swp
 
-# Entornos y secretos
+# Environments and secrets
 .env
 .env.*
 *.pem
 *.key
 
-# Logs y temporales
+# Logs and temporary files
 *.log
 tmp/
