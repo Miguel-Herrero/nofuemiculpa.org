@@ -30,6 +30,8 @@ a{color:inherit}
 .site-header nav a:first-child{border-left:0}
 .site-header nav a[aria-current="page"]{background:#fff;color:#000}
 .site-header nav a.cta{background:var(--y);color:#000;border-left:0}
+.top.news-bg{background-image:linear-gradient(rgba(60,64,72,.55),rgba(60,64,72,.55)),url(img/bg-periodicos.webp);background-size:cover;background-position:center;background-repeat:no-repeat;background-attachment:fixed}
+@media (hover:none),(max-width:820px){.top.news-bg{background-attachment:scroll}}
 .top.light{background:var(--y)}
 .light .site-header nav{border-color:#000;background:transparent}
 .light .site-header nav a{color:#000;border-color:#000}
@@ -232,6 +234,7 @@ a{color:inherit}
  .hero .box{white-space:normal}
  .stat-grid{grid-template-columns:1fr;gap:40px}
  .news-grid{grid-template-columns:1fr}
+ .news-card{min-height:0;padding:20px 20px 22px}
  .photo-strip{height:260px}
  .hablemos{padding:40px 24px}
 }
