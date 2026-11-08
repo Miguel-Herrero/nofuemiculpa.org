@@ -4,7 +4,7 @@ Web del proyecto **No Fue Mi Culpa**, contra el abuso sexual en menores y jóven
 
 🌐 **Sitio:** https://nofuemiculpa.org
 
-Es una versión estática y ligera de la web original, que estaba hecha en Wix. Está escrita con HTML y CSS puros, sin frameworks ni proceso de compilación.
+Es una versión estática y ligera de la web original. Está escrita con HTML y CSS puros, sin frameworks ni proceso de compilación.
 
 ## Estructura
 
