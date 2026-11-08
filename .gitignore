@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Entornos y secretos
+.env
+.env.*
+*.pem
+*.key
+
+# Logs y temporales
+*.log
+tmp/
