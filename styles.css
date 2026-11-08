@@ -117,7 +117,11 @@ a{color:inherit}
 .data-card .arrow{display:block;width:40px;border-top:2px solid #000;margin-top:16px}
 
 /* ===== About ===== */
-.about-hero{position:relative;padding:200px max(20px,calc((100% - 1140px)/2 + 30px)) 110px;margin-top:-110px;color:#fff;background:#222 url(img/bg-nazaret.webp) center 30%/cover no-repeat}
+.about-hero{position:relative;padding:200px max(20px,calc((100% - 1140px)/2 + 30px)) 110px;margin-top:-110px;color:#fff;background:#222 url(img/bg-nazaret.webp) center 30%/cover fixed no-repeat}
+@media (hover:none),(max-width:820px){.about-hero{background-attachment:scroll}}
+.inline-video{max-width:820px;margin:44px 0 0}
+.inline-video figcaption{color:#fff;font-size:15px;margin-top:12px}
+.media-video .video{margin-bottom:16px}
 .about-hero::before{content:"";position:absolute;inset:0;background:rgba(40,46,56,.62)}
 .about-hero>*{position:relative}
 .about-hero .box-title{font-size:clamp(40px,5vw,66px);padding:.1em .3em .14em}
