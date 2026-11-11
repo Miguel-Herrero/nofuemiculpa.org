@@ -2,7 +2,7 @@
 
 Web del proyecto **No Fue Mi Culpa**, contra el abuso sexual en menores y jóvenes en España.
 
-🌐 **Sitio:** https://nofuemiculpa.org
+🌐 **Sitio:** https://www.nofuemiculpa.org
 
 Es una versión estática y ligera de la web original. Está escrita con HTML y CSS puros, sin frameworks ni proceso de compilación.
 
@@ -36,7 +36,7 @@ Después abre http://localhost:8000 en el navegador.
 
 ## Publicación
 
-El sitio se publica con **GitHub Pages** desde la rama `main`, carpeta raíz. El fichero `CNAME` apunta al dominio `nofuemiculpa.org`. Conviene activar «Enforce HTTPS» en los ajustes de Pages.
+El sitio se publica con **GitHub Pages** desde la rama `main`, carpeta raíz. El fichero `CNAME` apunta al dominio `www.nofuemiculpa.org` (el dominio raíz redirige a `www`). Conviene activar «Enforce HTTPS» en los ajustes de Pages.
 
 ## Notas
 
